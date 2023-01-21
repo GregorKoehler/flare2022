@@ -1,0 +1,26 @@
+.
+├── Dockerfile
+├── HIP_Logo.png
+├── LICENSE
+├── checkpoints
+│   └── nnUNet
+│       └── 3d_fullres
+│           └── Task501_FLARE2022
+│               └── base_num_16
+│                   └── fine-tune-200
+│                        └── nnUNetTrainerV2__nnUNetPlansv2.1_bnf16_bs4
+│                           ├── fold_5
+│                           │   ├── model_final_checkpoint.model
+│                           │   ├── model_final_checkpoint.model.pkl
+│                           │   └── progress.png
+│                           └── plans.pkl
+├── documentation
+├── nnunet
+|     |----*
+├── predict.sh
+├── readme.md
+├── setup.cfg
+├── setup.py
+├── tests
+│   └── test_steps_for_sliding_window_prediction.py
+└── tree.txt
